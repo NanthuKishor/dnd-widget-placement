@@ -1,0 +1,10 @@
+.gridArea_wrap {
+  width: 100%;
+}
+
+.render_elements_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: "10px";
+}
