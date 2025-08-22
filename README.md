@@ -1,12 +1,16 @@
 # DnD Widget Placement Application
 
-This Application is bootstrapped with Vite, using the React-Javascript template.
+This project lets users drag and drop widgets (Button, Input, Table) from a sidebar onto a central canvas. The canvas uses a grid-based layout where widgets can be moved, resized, arranged and deleted interactively.
+
+This Application is bootstrapped with Vite, using the React-Typescript template & react-grid-layout library.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisite)
 - [Running Application](#running-application)
 - [Deployed Application](#deployed-application)
+- [Libraries Used](#libraries-used)
+- [Features](#features)
 - [Learn More](#learn-more)
 
 ## Prerequisites
@@ -33,12 +37,28 @@ To run the application in local machine, you need to
    Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
    The page will reload if you make edits.
 
+## Libraries Used
+
+`react-grid-layout` https://www.npmjs.com/package/react-grid-layout
+
+## Features
+
+- react-grid-layout is the main library used for implementing the major feature.
+- Widgets mentioned can be dragged from the left sidebar, onto the white canvas. Native Drag and Drop functionality of the html element is used to achieve this feature.
+- Dropped widget's positions can be arrange both Horizontally & Vertically.
+- Dropped widget's can be resized both Horizontally & Vertically.
+- Delete option is added so as to remove the unwanted widgets from the grid area canvas.
+- State (Position and Size) of the dropped widgets are saved in the localStorage.
+- Text input accepts input.
+
 ## Deployed Application
 
-Deployed site can be accessed here: https://tiny-axolotl-ceb2ac.netlify.app/
+Deployed site can be accessed here: https://widget-dnd.netlify.app/
 
 ## Learn More
 
 [Vite](https://vitejs.dev/) Bundler.
 
 [React](https://react.dev/learn/start-a-new-react-project) setup,
+
+[react-grid-layout](https://www.npmjs.com/package/react-grid-layout)
