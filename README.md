@@ -54,7 +54,7 @@ To run the application in local machine, you need to
 
 ## Deployed Application
 
-Deployed site can be accessed here: https://widget-dnd.netlify.app/
+Deployed site can be accessed here: https://widget-dnd-nanthu.netlify.app/
 
 ## Learn More
 
