@@ -10,7 +10,7 @@ This Application is bootstrapped with Vite, using the React-Typescript template 
 - [Running Application](#running-application)
 - [Deployed Application](#deployed-application)
 - [Libraries Used](#libraries-used)
-- [Features](#features)
+- [Key Features](#key-features)
 - [Learn More](#learn-more)
 
 ## Prerequisites
@@ -41,15 +41,16 @@ To run the application in local machine, you need to
 
 `react-grid-layout` https://www.npmjs.com/package/react-grid-layout
 
-## Features
+## Key Features
 
 - react-grid-layout is the main library used for implementing the major feature.
 - Widgets mentioned can be dragged from the left sidebar, onto the white canvas. Native Drag and Drop functionality of the html element is used to achieve this feature.
 - Dropped widget's positions can be arrange both Horizontally & Vertically.
-- Dropped widget's can be resized both Horizontally & Vertically.
+- Dropped widgets can be resized both Horizontally & Vertically.
 - Delete option is added so as to remove the unwanted widgets from the grid area canvas.
-- State (Position and Size) of the dropped widgets are saved in the localStorage.
+- State (Position and Size) of the dropped widgets are saved in the localStorage, so that state is preserved upon refresh.
 - Text input accepts input.
+- A custom hook useDnd, that handles all the drag n drop functionalities.
 
 ## Deployed Application
 

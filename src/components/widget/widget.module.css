@@ -26,6 +26,8 @@
   width: 100%;
   padding: 5px 10px;
   color: white;
+  background-color: black;
+  border: 1px solid black;
 }
 .widget_table {
   width: 100%;
